@@ -14,7 +14,7 @@ services:
     ports: 
       - "8000:8000"
     env_file: .env
-    # コンテナboards-dbを依存コンテナにする
+    # コンテナdjango_practice_dbを依存コンテナにする
     depends_on:
       - django_practice_db
 
